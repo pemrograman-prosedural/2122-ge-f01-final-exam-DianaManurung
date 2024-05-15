@@ -33,29 +33,3 @@ void print_student(struct student_t mhs)
     printf("female\n");
   }
 }
-
-void print_student_detail(struct student_t mhs)
-{
-  printf("%s|%s|%s|", mhs.id, mhs.name, mhs.year);
-  if (mhs.gender == GENDER_MALE)
-  {
-    printf("male|n");
-  }
-  else if (mhs.gender == GENDER_FEMALE)
-  {
-    printf("female|n");
-  }
-}
-
-void print_student_leave(struct student_t mhs)
-{
-  printf("%s|%s|%s|", mhs.id, mhs.name, mhs.year);
-  if (mhs.gender == GENDER_MALE)
-  {
-    printf("male|n");
-  }
-  else if (mhs.gender == GENDER_FEMALE)
-  {
-    printf("female|n");
-  }
-}
