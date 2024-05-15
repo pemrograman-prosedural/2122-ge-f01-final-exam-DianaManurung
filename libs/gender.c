@@ -11,7 +11,7 @@ void print_gender(enum gender_t gender) {
             break;
         default:
             printf("Invalid gender\n");
-            break;
+            break; 
     }
 }
 

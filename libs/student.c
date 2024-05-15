@@ -132,7 +132,7 @@ void move_student(struct dorm_t *drm, struct student_t *mhs, char *nim, char *as
     strcpy(mhs[maha].dorm->name, asrama);
     drm[asraafter].residents_num++;
   }
-}
+} 
 
 // mengggunakan fungsi to empty a dormitory
 void dorm_empty(char *asrama, int zstd, int zdrm, struct student_t *mhs, struct dorm_t *drm, int find_dorm(char *asrama, int zdrm, struct dorm_t *drm))

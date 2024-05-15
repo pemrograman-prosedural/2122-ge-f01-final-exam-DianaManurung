@@ -16,7 +16,7 @@ struct dorm_t
 };
 
 // create dormitory dengan memberikan input string create dormitory di atas
-struct dorm_t create_dorm(char *input);
+struct dorm_t create_dorm(char *input); 
 
 // mencetak informasi dari informasi jenis dormitory nya
 void print_dorm(struct dorm_t drm);

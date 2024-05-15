@@ -25,7 +25,7 @@ int main(int argc, char **argv) {
         
         char *token = strtok(input, "#");
         
-        if (strcmp(token, "---") == 0) {
+        if (strcmp(token, "---") == 0) { 
             break;
         } else if (strcmp(token, "dorm-add") == 0) {
             size++;

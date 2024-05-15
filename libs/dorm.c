@@ -8,7 +8,7 @@ struct dorm_t create_dorm(char *input)
 {
   // Mendeklarasikan struct dari asramanya
   // isi dari si struct terdiri dari dormitoryname,capacity dan gender
-  struct dorm_t dorm;
+  struct dorm_t dorm; 
 
   // Parse the string untuk mendapatkan jenis asrama dari si student tadi
   // setelah mendapatkan dormitory name maka akan menginput string capacity dan gendernya
