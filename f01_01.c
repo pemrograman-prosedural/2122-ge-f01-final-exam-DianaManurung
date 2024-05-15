@@ -36,6 +36,9 @@ int main(int argc, char **argv) {
             }
             dorm[n++] = create_dorm(input);
         } else if (strcmp(token, "dorm-print-all-detail") == 0) {
+
+            } else if (strcmp(token, "dorm-print-leave") == 0) {
+            size++;
             for (int i = 0; i < n; i++) {
                 print_dorm(dorm[i]);
             }
@@ -48,6 +51,8 @@ int main(int argc, char **argv) {
             }
             mhs[p++] = create_student(input);
         } else if (strcmp(token, "student-print-all-detail") == 0) {
+            } else if (strcmp(token, "student-print-leave") == 0) {
+            size++;
             for (int i = 0; i < p; i++) {
                 print_student(mhs[i]);
             }
