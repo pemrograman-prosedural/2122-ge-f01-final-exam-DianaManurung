@@ -53,21 +53,7 @@ int main(int argc, char **argv) {
             }
         }
     }
-    printf("%s|%s|%s|%s|%s|","12S21001", "Dhino Turnip", "2021", "male", "Antiokia");
-    printf("%s|%s|%s|%s|%s|","12S21002", "Marudut Tampubolon", "2021", "male", "Antiokia");
-    printf("%s|%s|%s|%s|%s|","12S21003", "Jusas Tampubolon", "2021", "male", "Antiokia");
-    printf("%s|%s|%s|%s|%s|","12S21004", "Estomihi pangaribuan", "2021", "male", "Antiokia");
-    printf("%s|%s|%s|%s|%s|","12S21006", "Weny Sitinjak", "2021", "female", "Pniel");
-    printf("%s|%s|%s|%s|%s|","12S21007", "Dame Sitinjak", "2021", "female", "Pniel");
-    printf("%s|%s|%s|%s|%s|","12S21008", "Tuani Manurung", "2021", "male", "Antiokia");
-    printf("%s|%s|%s|%s|%s|","12S21001", "Dhino Turnip", "2021", "male", "Antiokia");
-    printf("%s|%s|%s|%s|%s|","12S21002", "Marudut Tampubolon", "2021", "male", "Antiokia");
-    printf("%s|%s|%s|%s|%s|","12S21003", "Jusas Tampubolon", "2021", "male", "Antiokia");
-    printf("%s|%s|%s|%s|%s|","12S21004", "Estomihi pangaribuan", "2021", "male", "left");
-    printf("%s|%s|%s|%s|%s|","12S21006", "Weny Sitinjak", "2021", "female", "Pniel");
-    printf("%s|%s|%s|%s|%s|","12S21007", "Dame Sitinjak", "2021", "female", "left");
-    printf("%s|%s|%s|%s|%s|","12S21008", "Tuani Manurung", "2021", "male", "Antiokia");
-     
+    
     free(dorm);
     free(mhs);
     return 0;
